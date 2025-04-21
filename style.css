@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #ADD8E6; /* Light blue - placeholder */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation (if needed) */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #ADD8E6; /* Light blue - placeholder */
+    margin-bottom: 15px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 30%; /* Adjust as needed */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f8ff; /* Lightest blue - placeholder */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Image Placeholder Style (for services) */
+.service img {
+    /* Replace with actual images */
+    background-color: #90EE90; /* Light green - placeholder */
+    min-height: 150px;  /* Adjust as needed */
+    object-fit: cover; /* Ensure images fit within the placeholder */
+}
+
+/* Contact Section */
+.contact-info {
+    background-color: #E0FFFF; /* Light cyan - placeholder */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+}
